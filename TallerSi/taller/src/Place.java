@@ -12,11 +12,11 @@ public class Place {
     }
 
     private void menucito() {
-        menu.add(new Platos("Lasaña", "Una deliciosa lasaña casera con carne y queso", "plato fuerte", 10, 15));
-        menu.add(new Platos("Pizza Margarita", "Pizza con salsa de tomate, mozzarella y albahaca", "plato fuerte", 12, 20));
-        menu.add(new Platos("limonada", "bebida", "agua con limon y azuzar", 5, 10));
-        menu.add(new Platos("Sushi Variado", "Surtido de sushi con pescado fresco y arroz", "plato fuerte", 15, 25));
-        menu.add(new Platos("Filete Mignon", "Filete de ternera a la parrilla con guarnición", "plato fuerte", 18, 30));
+        menu.add(new Platos("Lasaña", "Una deliciosa lasaña casera con carne y queso", "plato fuerte", 10000, 15));
+        menu.add(new Platos("Pizza Margarita", "Pizza con salsa de tomate, mozzarella y albahaca", "plato fuerte", 12000, 20));
+        menu.add(new Platos("limonada", "bebida", "agua con limon y azuzar", 5000, 10));
+        menu.add(new Platos("Sushi Variado", "Surtido de sushi con pescado fresco y arroz", "plato fuerte", 15000, 25));
+        menu.add(new Platos("Filete Mignon", "Filete de ternera a la parrilla con guarnición", "plato fuerte", 18000, 30));
     }
 
     public void agregarAlCarrito(Platos plato, int cantidad) throws Exception {
